@@ -17,3 +17,9 @@ videos.forEach((video) => {
   video.removeAttribute("autoplay");
   video.removeAttribute("loop");
 });
+
+// dismiss bounce x
+
+if (document.querySelector('[id^="bx-creative-"]')) {
+  document.querySelector('[id^="bx-close-inside-"]').click();
+}
