@@ -1,0 +1,248 @@
+{
+  "id": "2eb216f9-796c-4377-8dbe-fcc0ceb7ef57",
+  "version": "2.0",
+  "name": "jklj",
+  "url": "https://www.coachoutlet.com",
+  "tests": [{
+    "id": "b79390bb-e669-4982-b5de-3e3c73094178",
+    "name": "search",
+    "commands": [{
+      "id": "7c1fbfdf-92ea-4271-87fe-8ffd1dfea895",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e41e03e-8341-4888-a689-b7387fc10ae4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "516x849",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4c98a5a-53f7-436a-918d-1205a99a78ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icm-icon-search:nth-child(6)",
+      "targets": [
+        ["css=.icm-icon-search:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='mobile-menu']/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f053f5d-3b6f-454a-ab05-356d20e0c4f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-products",
+      "targets": [
+        ["id=search-products", "id"],
+        ["name=search", "name"],
+        ["css=.active #search-products", "css:finder"],
+        ["xpath=//input[@id='search-products']", "xpath:attributes"],
+        ["xpath=//form[@id='productSearch']/input", "xpath:idRelative"],
+        ["xpath=//header/div/div/div/div/div/div/form/input", "xpath:position"]
+      ],
+      "value": "bags"
+    }, {
+      "id": "a2a55353-c5e3-4ab0-8a7f-9ab07cf70644",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-search-icon:nth-child(3)",
+      "targets": [
+        ["css=.product-search-icon:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='productSearch']/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59cb8816-8cf3-4ee6-8355-4cb3842c0afa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-lg-3:nth-child(1) .primary-image",
+      "targets": [
+        ["css=.col-lg-3:nth-child(1) .primary-image", "css:finder"],
+        ["xpath=//img[@alt='JES SLIM CROSSBODY WITH RAINBOW HORSE AND CARRIAGE']", "xpath:img"],
+        ["xpath=//div[@id='cont']/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a627af96-22fa-468f-a3dc-03e56eb07d04",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,234)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28d72ce5-f418-4b09-9945-e5adcc3eb3a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//div[@id='main']/section/div[2]/div/div/div[3]/div[2]/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05b90743-9ef0-4da6-be42-334d2a8b6903",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .btn-rounded",
+      "targets": [
+        ["css=form > .btn-rounded", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa390abe-f833-4689-9c69-8e7449d662ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_firstName",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_firstName", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_firstName", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_firstName", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0802f527-d449-41be-aa53-939eaccf0050",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_firstName",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_firstName", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_firstName", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_firstName", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Mike"
+    }, {
+      "id": "1c822c21-b618-4c7f-8f65-147ea87ed775",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_lastName",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_lastName", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_lastName", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_lastName", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Ebert"
+    }, {
+      "id": "ecc5c8f7-ba48-4482-94e4-a7161c968aa8",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_address1",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_address1", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_address1", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_address1", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_address1']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "5901 W Side Ave"
+    }, {
+      "id": "59a10617-304f-47ec-aa05-a717bab848fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_zip",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_zip", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_zip", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_zip", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_zip']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1728fa7-e24d-4a18-b6e7-7d0af326a991",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_zip",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_zip", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_zip", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_zip", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_zip']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "07047"
+    }, {
+      "id": "5493a946-ea66-4bc9-a5eb-fb5abb8c6ba6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loader > .loader-bg",
+      "targets": [
+        ["css=.loader > .loader-bg", "css:finder"],
+        ["xpath=//div[@id='shipping-method-list']/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//fieldset/div/div[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90d2684c-bec5-4dd4-86d5-afddf23ede93",
+      "comment": "",
+      "command": "click",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_phone",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_phone", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_phone", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_phone", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_phone']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2237ae1-7b78-4b9e-880d-20fcb70e3d58",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_phone",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_phone", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_phone", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_phone", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_phone']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "333-333-3333"
+    }, {
+      "id": "a53aa6fa-3f3d-4142-b8d2-e0faab68c007",
+      "comment": "",
+      "command": "click",
+      "target": "id=billingSubmitButton ",
+      "targets": [
+        ["id=billingSubmitButton ", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_save", "name"],
+        ["xpath=//button[@id='billingSubmitButton ']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/fieldset[3]/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a8867c04-6dad-4a76-a100-1f1d114ec0f0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.coachoutlet.com/"],
+  "plugins": []
+}

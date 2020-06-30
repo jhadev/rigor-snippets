@@ -1,0 +1,261 @@
+{
+  "id": "eb49c7c4-0f76-471c-bdb5-7b7aafdb209c",
+  "version": "2.0",
+  "name": "coachoutlet-buy",
+  "url": "https://coachoutlet.com",
+  "tests": [{
+    "id": "676c6433-6313-46d4-8f3f-b38afcf0b35b",
+    "name": "buy",
+    "commands": [{
+      "id": "69e5f8ec-33e3-4191-b30d-df06ff945dcf",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.coachoutlet.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b80a14b-f7ba-4eb9-899f-cac0e0c892be",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "515x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb36ceb4-4405-4b13-82b1-37dab43a9b96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.burger",
+      "targets": [
+        ["css=.burger", "css:finder"],
+        ["xpath=//div[@id='mobile-menu']/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b11c05ec-e800-4309-a98f-4d17eaa95b7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.whats-new > .top-level-title > span",
+      "targets": [
+        ["css=.whats-new > .top-level-title > span", "css:finder"],
+        ["xpath=//nav[@id='categories']/div[3]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6cd2df5-3810-4b94-8bc0-70bedb632a64",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View All",
+      "targets": [
+        ["linkText=View All", "linkText"],
+        ["css=.whats-new-view-all > .products-list__item--title", "css:finder"],
+        ["xpath=//nav[@id='categories']/div[3]/ul/li[2]/div/div/ul/li/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.coachoutlet.com/shop/event-whats-new-whats-new')])[4]", "xpath:href"],
+        ["xpath=//li[2]/div/div/ul/li/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b71aba-7d9c-4651-8105-55bfd9b33639",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.instance-0 .swiper-slide-active > .primary-image",
+      "targets": [
+        ["css=.instance-0 .swiper-slide-active > .primary-image", "css:finder"],
+        ["xpath=//img[@alt='ZIP TOP TOTE']", "xpath:img"],
+        ["xpath=//div[@id='cont']/div[2]/div/div[2]/a/div/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00cb3ef2-6e6e-4504-8db2-04089ce3995d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.instance-0 .swiper-slide-active > .primary-image",
+      "targets": [
+        ["css=.instance-0 .swiper-slide-active > .primary-image", "css:finder"],
+        ["xpath=//img[@alt='ZIP TOP TOTE']", "xpath:img"],
+        ["xpath=//div[@id='cont']/div[2]/div/div[2]/a/div/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e023167-c714-4b44-b708-dac82a4b88fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart",
+      "targets": [
+        ["css=.add-to-cart", "css:finder"],
+        ["xpath=//div[@id='main']/section/div[2]/div/div/div[3]/div[2]/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69e904a3-980c-4e3a-8437-44d394d34c68",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > .btn-rounded",
+      "targets": [
+        ["css=form > .btn-rounded", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52033e19-dcd4-4e2b-a91d-a2c140fcc46a",
+      "comment": "",
+      "command": "click",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_firstName",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_firstName", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_firstName", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_firstName", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9ce51e5-d927-44c1-9837-0cd0941e2872",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_firstName",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_firstName", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_firstName", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_firstName", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_firstName']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Mike"
+    }, {
+      "id": "d2aaa22c-5188-48cd-977d-b179b24fca4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_lastName",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_lastName", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_lastName", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_lastName", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_lastName']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Ebert"
+    }, {
+      "id": "0588b46e-a6aa-4ad9-85c0-eb7341ee64ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_address1",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_address1", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_address1", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_address1", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_address1']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "5901 W Side Ave"
+    }, {
+      "id": "fe870aa7-51e4-42f8-94b4-5328bbe6f888",
+      "comment": "",
+      "command": "click",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_zip",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_zip", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_zip", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_zip", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_zip']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d506e2c8-a09b-4d09-b762-c299e4c0c0d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_zip",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_zip", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_zip", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_zip", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_zip']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[4]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "07047"
+    }, {
+      "id": "4421efe3-79a2-4421-bb8f-870c5276fa98",
+      "comment": "",
+      "command": "type",
+      "target": "id=dwfrm_singleshipping_shippingAddress_addressFields_phone",
+      "targets": [
+        ["id=dwfrm_singleshipping_shippingAddress_addressFields_phone", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_addressFields_phone", "name"],
+        ["css=#dwfrm_singleshipping_shippingAddress_addressFields_phone", "css:finder"],
+        ["xpath=//input[@id='dwfrm_singleshipping_shippingAddress_addressFields_phone']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/div/div[6]/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/input", "xpath:position"]
+      ],
+      "value": "333-333-3333"
+    }, {
+      "id": "bffe102b-aae4-4f48-887b-f2b0cdf77bb8",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=billingSubmitButton ",
+      "targets": [
+        ["id=billingSubmitButton ", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_save", "name"],
+        ["xpath=//button[@id='billingSubmitButton ']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/fieldset[3]/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b741271b-4b62-4264-839e-7c7405822f82",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.mini-cart-product",
+      "targets": [
+        ["css=.mini-cart-product", "css:finder"],
+        ["xpath=//div[@id='secondary']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba42979-ab80-46c6-89a6-8b970af8438e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > .row",
+      "targets": [
+        ["css=.container > .row", "css:finder"],
+        ["xpath=//div[@id='main']/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df44a5de-8c8c-4419-adb9-b4fcbbadde31",
+      "comment": "",
+      "command": "click",
+      "target": "id=billingSubmitButton ",
+      "targets": [
+        ["id=billingSubmitButton ", "id"],
+        ["name=dwfrm_singleshipping_shippingAddress_save", "name"],
+        ["xpath=//button[@id='billingSubmitButton ']", "xpath:attributes"],
+        ["xpath=//form[@id='dwfrm_singleshipping_shippingAddress']/div[2]/fieldset[3]/div/button", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "964a5933-a766-4d87-88a6-f25a4bf345eb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

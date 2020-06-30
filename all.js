@@ -23,3 +23,17 @@ videos.forEach((video) => {
 if (document.querySelector('[id^="bx-creative-"]')) {
   document.querySelector('[id^="bx-close-inside-"]').click();
 }
+
+if (document.querySelector('[id^="bx-creative-"]')) {
+  console.log(
+    document.querySelector('[id^="bx-creative-"] > div > a.bx-close')
+  );
+}
+
+const alerts = document.querySelectorAll('[id ^= "bx-close-inside-"]');
+
+if (alerts) {
+  for (let i = 0; i < popups.length; i++) {
+    alerts[i].click();
+  }
+}
