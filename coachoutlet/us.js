@@ -3,7 +3,7 @@
 const alerts = document.querySelectorAll('[id ^= "bx-close-inside-"]');
 
 if (alerts) {
-  for (let i = 0; i < popups.length; i++) {
+  for (let i = 0; i < alerts.length; i++) {
     alerts[i].click();
   }
 }

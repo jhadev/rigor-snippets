@@ -24,16 +24,11 @@ if (document.querySelector('[id^="bx-creative-"]')) {
   document.querySelector('[id^="bx-close-inside-"]').click();
 }
 
-if (document.querySelector('[id^="bx-creative-"]')) {
-  console.log(
-    document.querySelector('[id^="bx-creative-"] > div > a.bx-close')
-  );
-}
-
+// dismiss ALL bounce x
 const alerts = document.querySelectorAll('[id ^= "bx-close-inside-"]');
 
 if (alerts) {
-  for (let i = 0; i < popups.length; i++) {
+  for (let i = 0; i < alerts.length; i++) {
     alerts[i].click();
   }
 }

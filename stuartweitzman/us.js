@@ -15,3 +15,13 @@ function getInStockSize() {
 
   return itemSize[0];
 }
+
+// close chat
+
+const slider = document.getElementById("needle_invSliderT4p");
+
+if (slider) {
+  document.querySelector("#needle_invSliderT4p > span:nth-child(3)").click();
+}
+
+window.scrollTo(0, document.body.scrollHeight);
