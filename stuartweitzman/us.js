@@ -1,20 +1,23 @@
 // for search and buy - ignore oos items
 
-function getInStockSize() {
-  const tags = document.querySelectorAll("#ddlSize > option");
-  let itemSize = [];
+function getInStockSizeOrWidth(id) {
+  const tags = document.querySelectorAll(`#${id} > option`);
+  let itemValue = [];
 
   for (let i = 0; i < tags.length; i++) {
     if (!tags[i].getAttribute("disabled")) {
       const tagValue = tags[i].getAttribute("value");
       if (tagValue !== "0") {
-        itemSize.push(tagValue);
+        itemValue.push(tagValue);
       }
     }
   }
 
-  return itemSize[0];
+  return itemValue[0];
 }
+
+const itemSize = getInStockSizeOrWidth("ddlSize");
+const itemWidth = getInStockSizeOrWidth("ddlWidth");
 
 // close chat
 

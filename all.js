@@ -32,3 +32,10 @@ if (alerts) {
     alerts[i].click();
   }
 }
+
+// for akamamai page integrity
+// page-integrity=force-injection
+
+// https://uk.coach.com/on/demandware.store/Sites-Coach_EU-Site/en_GB/OptIn-EmailModal
+
+// https://de.coach.com/on/demandware.store/Sites-Coach_EU-Site/de_DE/OptIn-EmailModal
