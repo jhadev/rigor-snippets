@@ -33,8 +33,17 @@ if (alerts) {
   }
 }
 
+<<<<<<< HEAD
 // choose random search
 
 function getRandomTerm(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
+=======
+// for akamamai page integrity
+// page-integrity=force-injection
+
+// https://uk.coach.com/on/demandware.store/Sites-Coach_EU-Site/en_GB/OptIn-EmailModal
+
+// https://de.coach.com/on/demandware.store/Sites-Coach_EU-Site/de_DE/OptIn-EmailModal
+>>>>>>> 7e1e61a9c25f243075936fc0739122f7b62e2b24
