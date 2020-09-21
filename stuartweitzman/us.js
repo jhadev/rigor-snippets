@@ -5,9 +5,9 @@ function getInStockSizeOrWidth(id) {
   let itemValue = [];
 
   for (let i = 0; i < tags.length; i++) {
-    if (!tags[i].getAttribute("disabled")) {
-      const tagValue = tags[i].getAttribute("value");
-      if (tagValue !== "0") {
+    if (!tags[i].getAttribute('disabled')) {
+      const tagValue = tags[i].getAttribute('value');
+      if (tagValue !== '0') {
         itemValue.push(tagValue);
       }
     }
@@ -16,15 +16,33 @@ function getInStockSizeOrWidth(id) {
   return itemValue[0];
 }
 
-const itemSize = getInStockSizeOrWidth("ddlSize");
-const itemWidth = getInStockSizeOrWidth("ddlWidth");
+const itemSize = getInStockSizeOrWidth('ddlSize');
+const itemWidth = getInStockSizeOrWidth('ddlWidth');
 
 // close chat
 
-const slider = document.getElementById("needle_invSliderT4p");
+const slider = document.getElementById('needle_invSliderT4p');
 
 if (slider) {
-  document.querySelector("#needle_invSliderT4p > span:nth-child(3)").click();
+  document.querySelector('#needle_invSliderT4p > span:nth-child(3)').click();
 }
 
 window.scrollTo(0, document.body.scrollHeight);
+
+let widthValue = '';
+const tags = document.querySelectorAll('#ddlWidth > option');
+let itemWidth = [];
+
+for (let i = 0; i < tags.length; i++) {
+  if (!tags[i].getAttribute('disabled')) {
+    const tagValue = tags[i].getAttribute('value');
+    if (tagValue !== '0') {
+      itemWidth.push(tagValue);
+    }
+  }
+}
+
+widthValue = itemWidth[0];
+
+console.log(widthValue);
+return widthValue;
